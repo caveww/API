@@ -1,3 +1,8 @@
+>        [DllImport(V, CharSet = CharSet.Unicode)]
+>        public static extern string MSGBoxC(string TITLE, string MESSAGE);
+
+>        MSGBoxC("hello", "test");
+***
 >         [DllImport("EZAPI-V1.dll", CharSet = CharSet.Unicode)]
 >         public static extern void SleepC(int time);
 
@@ -27,7 +32,9 @@
 >         public static extern string FTP(string HOST, string USER, string PASSWORD, int PORT, string FILE, string FILEDESTINATION);
 
 >         FTP("Google.com", "user12340", "password12340", 21, "test.txt", "LOGS/test.txt"); // default Port is 21
-
+***
+>`MSGBoxC` - `        public static extern string MSGBoxC(string TITLE, string MESSAGE);` - `TITLE` is the textbox title - `MESSAGE` is the textbox message - ex; `MSGBoxC("hello", "test");`
+***
 >`SleepC` - `public static extern void SleepC(int time);` - `time` amount of time  - ex; `SleepC(5000);`
 
 ***
