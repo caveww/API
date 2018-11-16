@@ -27,7 +27,7 @@
 >         public static extern string FTP(string HOST, string USER, string PASSWORD, int PORT, string FILE, string FILEDESTINATION);
 
 >         FTP("Google.com", "user12340", "password12340", 21, "test.txt", "LOGS/test.txt"); // default Port is 21
->----------------------------------------------------------
+
 >`SleepC` - `public static extern void SleepC(int time);` - `time` amount of time  - ex; `SleepC(5000);`
 
 ***
