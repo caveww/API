@@ -51,7 +51,7 @@
 
 ***
 
->`MakeFileC` - `public static extern string MakeFileC(string Filename, string WRITE);` - `FILENAME` the name of the file to make - `WRITE` stuff that you want to write in the file - ex; `MakeFileC("test.txt", "Hello Every one");`
+>`MakeFileC` - `public static extern string MakeFileC(string FILENAME, string WRITE);` - `FILENAME` the name of the file to make - `WRITE` stuff that you want to write in the file - ex; `MakeFileC("test.txt", "Hello Every one");`
 
 ***
 
