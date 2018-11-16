@@ -4,17 +4,17 @@
 >        MSGBoxC("hello", "test");
 ***
 >         [DllImport("EZAPI-V1.dll", CharSet = CharSet.Unicode)]
->         public static extern void SleepC(int time);
+>         public static extern void SleepC(int TIME);
 
 >         SleepC(5000); //5000 = 5 sec
 ***
 >         [DllImport("EZAPI-V1.dll", CharSet = CharSet.Unicode)]
->         public static extern void ExitC(int code);
+>         public static extern void ExitC(int CODE);
 
 >         ExitC(10); //exit the program and return a value of 10
 ***
 >         [DllImport("EZAPI-V1.dll", CharSet = CharSet.Unicode)]
->         public static extern void MessageC(string Message);
+>         public static extern void MessageC(string MESSAGE);
 
 >         MessageC("hello");
 ***
@@ -24,7 +24,7 @@
 >         GetHwid(); //return to a value
 ***
 >         [DllImport("EZAPI-V1.dll", CharSet = CharSet.Unicode)]
->         public static extern string MakeFileC(string Filename, string Write);
+>         public static extern string MakeFileC(string FILENAME, string WRITE);
 
 >         MakeFileC("test.txt", "Hello Every one");
 ***
@@ -35,15 +35,15 @@
 ***
 >`MSGBoxC` - `        public static extern string MSGBoxC(string TITLE, string MESSAGE);` - `TITLE` is the textbox title - `MESSAGE` is the textbox message - ex; `MSGBoxC("hello", "test");`
 ***
->`SleepC` - `public static extern void SleepC(int time);` - `time` amount of time  - ex; `SleepC(5000);`
+>`SleepC` - `public static extern void SleepC(int TIME);` - `TIME` amount of time  - ex; `SleepC(5000);`
 
 ***
 
->`ExitC` - `public static extern void ExitC(int code);` - `code` exit the program and return a value of 10 - ex; `ExitC(10);`
+>`ExitC` - `public static extern void ExitC(int CODE);` - `CODE` exit the program and return a value of 10 - ex; `ExitC(10);`
 
 ***
 
->`MessageC` - `public static extern void MessageC(string Message);` - `Message` string message - ex; `MessageC("hello");`
+>`MessageC` - `public static extern void MessageC(string MESSAGE);` - `MESSAGE` string message - ex; `MessageC("hello");`
 
 ***
 
@@ -51,7 +51,7 @@
 
 ***
 
->`MakeFileC` - `public static extern string MakeFileC(string Filename, string Write);` - `Filename` the name of the file to make - `Write` stuff that you want to write in the file - ex; `MakeFileC("test.txt", "Hello Every one");`
+>`MakeFileC` - `public static extern string MakeFileC(string Filename, string WRITE);` - `FILENAME` the name of the file to make - `WRITE` stuff that you want to write in the file - ex; `MakeFileC("test.txt", "Hello Every one");`
 
 ***
 
