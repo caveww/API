@@ -1,4 +1,4 @@
->        [DllImport(V, CharSet = CharSet.Unicode)]
+>        [DllImport("EZAPI-V1.dll", CharSet = CharSet.Unicode)]
 >        public static extern string MSGBoxC(string TITLE, string MESSAGE);
 
 >        MSGBoxC("hello", "test");
