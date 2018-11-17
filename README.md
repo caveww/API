@@ -38,7 +38,7 @@
 
 >         FTP("Google.com", "user12340", "password12340", 21, "test.txt", "LOGS/test.txt"); // default Port is 21
 ***
- `GetPublicIP` - `public static extern string GetPublicIP();` - return to a value - ex; `GetPublicIP();`
+ >`GetPublicIP` - `public static extern string GetPublicIP();` - return to a value - ex; `GetPublicIP();`
 ***
 >`MSGBoxC` - `public static extern string MSGBoxC(string TITLE, string MESSAGE);` - `TITLE` is the textbox title - `MESSAGE` is the textbox message - ex; `MSGBoxC("hello", "test");`
 ***
