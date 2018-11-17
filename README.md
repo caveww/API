@@ -34,9 +34,9 @@
 >         MakeFileC("test.txt", "Hello Every one");
 ***
 >         [DllImport("EZAPI-V1.dll", CharSet = CharSet.Unicode)]
->         public static extern string FTP(string HOST, string USER, string PASSWORD, int PORT, string FILE, string FILEDESTINATION);
+>         public static extern string FTPU(string HOST, string USER, string PASSWORD, int PORT, string FILE, string FILEDESTINATION);
 
->         FTP("Google.com", "user12340", "password12340", 21, "test.txt", "LOGS/test.txt"); // default Port is 21
+>         FTPU("Google.com", "user12340", "password12340", 21, "test.txt", "LOGS/test.txt"); // default Port is 21
 ***
  >`GetPublicIP` - `public static extern string GetPublicIP();` - return to a value - ex; `GetPublicIP();`
 ***
@@ -62,4 +62,4 @@
 
 ***
 
->`FTP` - `public static extern string FTP(string HOST, string USER, string PASSWORD, int PORT, string FILE, string FILEDESTINATION);` - `HOST` host name like google.com but put your own - `USER` the ftp username - `PASSWORD` the password of the ftp server (client) - `PORT` the port of the server the default Port is 21 - `FILE` the file to upload - `FILEDESTINATION` the destination file in the ftp server (client) - ex; `FTP("Google.com", "user12340", "password12340", 21, "test.txt", "LOGS/test.txt"); // default Port is 21`
+>`FTPU` - `public static extern string FTPU(string HOST, string USER, string PASSWORD, int PORT, string FILE, string FILEDESTINATION);` - `HOST` host name like google.com but put your own - `USER` the ftp username - `PASSWORD` the password of the ftp server (client) - `PORT` the port of the server the default Port is 21 - `FILE` the file to upload - `FILEDESTINATION` the destination file in the ftp server (client) - ex; `FTPU("Google.com", "user12340", "password12340", 21, "test.txt", "LOGS/test.txt"); // default Port is 21`
